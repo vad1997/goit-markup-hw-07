@@ -21,7 +21,7 @@
 
   <body>
     <!-- Header section -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo link" href=""> WEB<span class="header-logo-dark">STUDIO</span> </a>
@@ -50,7 +50,7 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
     <main>
       <!-- Hero section -->
@@ -124,17 +124,33 @@
           <h2 class="benefits-title">What Are We Doing</h2>
           <ul class="benefits-list list">
             <li class="benefits-item">
-              <img class="benefits-pic" src="./images/rectangle-1.jpg" alt="monitor" width="360" />
-            </li>
-            <li class="benefits-item">
-              <img class="benefits-pic" src="./images/rectangle-2.jpg" alt="telefon" width="360" />
+              <img
+                class="benefits-pic"
+                srcset="./images/benefits/img-1.jpg 1x, ./images/benefits/img-1@2x.jpg 2x"
+                src="./images/benefits/img-1.jpg"
+                alt="monitor"
+                width="360"
+                loading="lazy"
+              />
             </li>
             <li class="benefits-item">
               <img
                 class="benefits-pic"
-                src="./images/rectangle-3.jpg"
+                srcset="./images/benefits/img-2.jpg 1x, ./images/benefits/img-2@2x.jpg 2x"
+                src="./images/benefits/img-2.jpg"
+                alt="telefon"
+                width="360"
+                loading="lazy"
+              />
+            </li>
+            <li class="benefits-item">
+              <img
+                class="benefits-pic"
+                srcset="./images/benefits/img-3.jpg 1x, ./images/benefits/img-3@2x.jpg 2x"
+                src="./images/benefits/img-3.jpg"
                 alt="nooteboke+tel"
                 width="360"
+                loading="lazy"
               />
             </li>
           </ul>
@@ -142,12 +158,18 @@
       </section>
 
       <!-- Team section -->
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-card">
-              <img class="team-avatar" src="./images/marc.img.jpg" alt="marc" width="264" />
+              <img
+                class="team-avatar"
+                srcset="./images/team/img-1.jpg 1x, ./images/team/img-1@2x.jpg 2x"
+                src="./images/team/img-1.jpg"
+                alt="marc"
+                width="264"
+              />
               <div class="team-list-wrapper">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-position">Product Designer</p>
@@ -186,7 +208,13 @@
             </li>
 
             <li class="team-card">
-              <img class="team-avatar" src="./images/tom.img.jpg" alt="tom" width="264" />
+              <img
+                class="team-avatar"
+                srcset="./images/team/img-2.jpg 1x, ./images/team/img-2@2x.jpg 2x"
+                src="./images/team/img-1.jpg"
+                alt="tom"
+                width="264"
+              />
               <div class="team-list-wrapper">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-position">Frontend Developer</p>
@@ -224,7 +252,13 @@
               </div>
             </li>
             <li class="team-card">
-              <img class="team-avatar" src="./images/camila.img.jpg" alt="camila" width="264" />
+              <img
+                class="team-avatar"
+                srcset="./images/team/img-3.jpg 1x, ./images/team/img-3@2x.jpg 2x"
+                src="./images/team/img-3.jpg"
+                alt="camila"
+                width="264"
+              />
               <div class="team-list-wrapper">
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-position">Marketing</p>
@@ -262,7 +296,13 @@
               </div>
             </li>
             <li class="team-card">
-              <img class="team-avatar" src="./images/daniel.img.jpg" alt="daniel" width="264" />
+              <img
+                class="team-avatar"
+                srcset="./images/team/img-4.jpg 1x, ./images/team/img-4@2x.jpg 2x"
+                src="./images/team/img-4.jpg"
+                alt="daniel"
+                width="264"
+              />
               <div class="team-list-wrapper">
                 <h3 class="team-name">Daniel Wilson</h3>
                 <p class="team-position">UI Designer</p>
@@ -301,9 +341,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!--  -->
-      <section class="customers">
+      </section> -->
+      <!-- Customers section -->
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customer-block list">
@@ -352,11 +392,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Footer section -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-info">
           <a class="footer-logo link" href="">WEB<span class="footer-logo-light">STUDIO</span></a>
@@ -414,9 +454,10 @@
           </div>
         </form>
       </div>
-    </footer>
+    </footer> -->
+
     <!-- Modal window -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
@@ -469,7 +510,7 @@
           <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
   </body>
