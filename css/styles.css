@@ -156,10 +156,11 @@ img {
     display: block;
   }
 }
-
-.header-contacts-list {
-  display: flex;
-  gap: 40px;
+@media screen and (min-width: 1200px) {
+  .header-contacts-list {
+    display: flex;
+    gap: 40px;
+  }
 }
 .header-contacts-item {
 }
@@ -701,7 +702,7 @@ img {
 .subscribe-form {
   width: 453px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .subscribe-form {
     margin-left: auto;
   }
